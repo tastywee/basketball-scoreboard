@@ -1,0 +1,51 @@
+@font-face {
+    font-family: clock;
+    src: url("Technology.ttf")
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    background: #1B244A;
+    margin: 10px 100px;
+    border-radius: 10px;
+    padding: 10px 0px 40px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+}
+
+#home-score, #guest-score {
+    width: 100px;
+    height: 100px;
+    font-family: clock;
+    color: #E11D48;
+    background: black;
+    margin: 0px auto 20px auto;
+    font-size: 90px;
+}
+
+#middle {
+    margin: auto 0px;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    margin: 0px 1px;
+    background-color: transparent;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+#new-game-button {
+    width: 100px;
+    height: 60px;
+}
